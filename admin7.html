@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gurdaspur</title>
+    <style>
+        .container{
+            height: 100vh;
+           /* margin-top: 45px; */
+        }
+        .container p{
+            color: #293b5f;
+        }
+        .shutti{
+            height: 100px;
+            border: 2px solid black;
+            padding-bottom: 30px;
+            background-color: #dbe6fd;
+        }
+        .shutti p{
+            display: inline-block;
+            font-size: 30px;
+           
+        }
+        .prince-travels{
+            height: 100px;
+            border: 2px solid black;
+            padding-bottom: 30px;
+            background-color: #dbe6fd;
+        }
+        .prince-travels p{
+            display: inline-block;
+            font-size: 30px;
+        }
+        .orbit-alivation{
+            height: 100px;
+            border: 2px solid black;
+            padding-bottom: 30px;
+            background-color: #dbe6fd;
+        }
+        .orbit-alivation p{
+            display: inline-block;
+            font-size: 30px;
+        }
+       
+     
+
+        
+        #departure{
+            margin-left: 10px;
+            position: absolute;
+            top: 110px;
+            font-size: 35px;
+        }
+        #duration{
+            margin-left: 10px;
+            position: absolute;
+            top: 110px;
+            right: 650px;
+            font-size: 35px;
+        }
+        #arrival{
+            margin-left: 10px;
+            position: absolute;
+            top: 110px;
+            font-size: 35px;
+            right: 350px;
+        }
+        #price{
+            margin-left: 10px;
+            position: absolute;
+            top: 110px;
+            font-size: 35px;
+            right: 50px;
+        }
+        h1{
+            font-family: sans-serif;
+        }
+        #departure1{
+            margin-left: 10px;
+            position: absolute;
+            top: 320px;
+            font-size: 35px;
+        }
+        #duration1{
+            margin-left: 10px;
+            position: absolute;
+            top: 320px;
+            right: 550px;
+            font-size: 35px;
+        }
+        #arrival1{
+            margin-left: 10px;
+            position: absolute;
+            top: 320px;
+            font-size: 35px;
+            right: 270px;
+        }
+        #price1{
+            margin-left: 10px;
+            position: absolute;
+            top: 320px;
+            font-size: 35px;
+            right: 30px;
+        }
+          #departure2{
+            margin-left: 10px;
+            position: absolute;
+            top: 530px;
+            font-size: 35px;
+        }
+        #duration2{
+            margin-left: 10px;
+            position: absolute;
+            top: 530px;
+            right: 550px;
+            font-size: 35px;
+        }
+        #arrival2{
+            margin-left: 10px;
+            position: absolute;
+            top: 530px;
+            font-size: 35px;
+            right: 270px;
+        }
+        #price2{
+            margin-left: 10px;
+            position: absolute;
+            top: 530px;
+            font-size: 35px;
+            right: 30px;
+        }
+        a{
+            font-size: 25px;
+            color: black;
+        }
+        a:hover{
+            color:cadetblue;
+        }
+        #back{
+            position: absolute;
+            right: 10%;
+            top: 15px;
+        }
+        button{
+                margin-left: 1000px;
+                padding: 5px 10px;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        @media only screen and (max-width: 640px){
+                .shutti{
+                    font-size:10px;
+                    display:flex;
+                    flex-direction: column;
+                    height: 200px;
+                }
+                #departure{
+                    font-size: 15px;
+                    top: 37%;
+                }
+                #duration{
+                    font-size: 15px;
+                }
+                #price{
+                    font-size: 15px;
+                    top: 30%;
+                }
+               .shutti p{
+                    font-size: 20px;
+                }
+                #arrival{
+                    font-size: 15px;
+                    
+                        right: 10%;
+                         top: 35%;
+                }
+                #departure1{
+                    font-size: 15px;
+                    top: 84%;
+                    left: 2%;
+                }
+                #duration1{
+                    font-size: 15px;
+                }
+                #arrival1{
+                    font-size: 15px;
+                    top: 86%;
+                    right: 4%;
+                }
+                #price1{
+                    font-size: 15px;
+                    top: 82%;
+                }
+                .prince-travels p{
+                    font-size: 15px;
+                }
+                .orbit-alivation p{
+                    font-size: 15px;
+                }
+                #departure2{
+                    font-size: 15px;
+                    top: 117%;
+                    left: 2%;
+                }
+                #arrival2{
+                    font-size: 15px;
+                    top: 120%;
+                    right: 4%;
+                }
+                #price2{
+                    font-size: 15px;
+                    top: 117%;
+                }
+            }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <a href="busreservation.html">Home</a>
+        <a href="11.html" id="back">Back</a>
+        <h1>Gurdaspur To Jalandhar</h1>
+        <div class="shutti"> 
+            <p>Sangnam Travels <br>(A/C/Seater/Sleeper)</p>
+            <p id="departure">Departure  :  19:50PM</p>
+            <p id="duration">Duration  :    3-Hour</p>
+            <p id="arrival">Arrival    :    23.00PM</p>
+            <p id="price">Price   : INR 450   </p>
+            <button>Delete</button>
+        </div>
+        <h1>Gurdaspur To Chandigarh</h1>
+        <div class="prince-travels">
+            <p>Yellow Pedal <br>(A/C/Seater/Sleeper)</p>
+            <p id="departure1">Departure  :  17:45PM</p>
+            <p id="duration1">Duration  :    1-Hour 55-Min</p>
+            <p id="arrival1">Arrival    :    20.00PM</p>
+            <p id="price1">Price   : INR 225   </p>
+            <button>Delete</button>
+        </div>
+        <h1>Gurdaspur To Patiala</h1>
+        <div class="orbit-alivation">
+            <p>Pepsu <br>(A/C/Seater/Sleeper)</p>
+            <p id="departure2">Departure  :  14:35PM</p>
+            <p id="duration2">Duration  :    3-Hour 20-Min</p>
+            <p id="arrival2">Arrival    :    20.00PM</p>
+            <p id="price2">Price   : INR 550   </p>
+            <button>Delete</button>
+        </div>
+      
+       
+        
+    </div>
+</body>
+</html>
